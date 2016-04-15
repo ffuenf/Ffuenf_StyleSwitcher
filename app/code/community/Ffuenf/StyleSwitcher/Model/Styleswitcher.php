@@ -33,7 +33,7 @@ class Ffuenf_StyleSwitcher_Model_Styleswitcher
         $html = '<select name="styleswitcher" id="styleswitcher">';
         $html .= '<option value="">choose style variant</option>';
         foreach ($styles as $style) {
-            $html .= '<option value="' . $style . '">' . $style . '</option>';
+            $html .= '<option value="'.$style.'">'.$style.'</option>';
         }
         $html .= '</select>';
         return $html;

@@ -26,7 +26,7 @@ class Ffuenf_StyleSwitcher_Test_Model_Styleswitcher extends EcomDev_PHPUnit_Test
     public function testModelAlias()
     {
         $this->assertModelAlias(
-            'ffuenf_styleswitcher/observer_clear',
+            'ffuenf_styleswitcher/styleswitcher',
             'Ffuenf_StyleSwitcher_Model_Styleswitcher'
         );
     }
