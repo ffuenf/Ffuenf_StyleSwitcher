@@ -1,0 +1,11 @@
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_js</type><name>js/ffuenf_styleswitcher.js</name></action>
+            <action method="addItem"><type>skin_css</type><name>css/ffuenf_styleswitcher.css</name><params/></action>
+        </reference>
+        <reference name="before_body_end">
+            <block type="core/template" name="header.styleswitcher" template="ffuenf/styleswitcher/switch.phtml" />
+        </reference>
+    </default>
+</layout>

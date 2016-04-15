@@ -1,0 +1,6 @@
+app/code/community/Ffuenf/StyleSwitcher                          app/code/community/Ffuenf/StyleSwitcher
+app/etc/modules/Ffuenf_StyleSwitcher.xml                         app/etc/modules/Ffuenf_StyleSwitcher.xml
+app/design/frontend/base/default/layout/ffuenf_styleswitcher.xml app/design/frontend/base/default/layout/ffuenf_styleswitcher.xml
+app/design/frontend/base/default/template/ffuenf/styleswitcher   app/design/frontend/base/default/template/ffuenf/styleswitcher
+skin/frontend/base/default/css/ffuenf_styleswitcher.css          skin/frontend/base/default/css/ffuenf_styleswitcher.css
+skin/frontend/base/default/js/ffuenf_styleswitcher.js            skin/frontend/base/default/js/ffuenf_styleswitcher.js

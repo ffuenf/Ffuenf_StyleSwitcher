@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Ffuenf_StyleSwitcher extension
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ *
+ * @category   Ffuenf
+ *
+ * @author     Achim Rosenhagen <a.rosenhagen@ffuenf.de>
+ * @copyright  Copyright (c) 2016 ffuenf (http://www.ffuenf.de)
+ * @license    http://opensource.org/licenses/mit-license.php MIT License
+*/
+-->
+<config>
+    <modules>
+        <Ffuenf_StyleSwitcher>
+            <version>1.0.0</version>
+        </Ffuenf_StyleSwitcher>
+    </modules>
+    <global>
+        <helpers>
+            <ffuenf_styleswitcher>
+                <class>Ffuenf_StyleSwitcher_Helper</class>
+            </ffuenf_styleswitcher>
+        </helpers>
+        <blocks>
+            <ffuenf_styleswitcher>
+                <class>Ffuenf_StyleSwitcher_Block</class>
+            </ffuenf_styleswitcher>
+        </blocks>
+        <models>
+            <ffuenf_styleswitcher>
+                <class>Ffuenf_StyleSwitcher_Model</class>
+            </ffuenf_styleswitcher>
+        </models>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <ffuenf_styleswitcher>
+                    <file>ffuenf_styleswitcher.xml</file>
+                </ffuenf_styleswitcher>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <ffuenf_styleswitcher>
+            <general>
+                <enable>0</enable>
+            </general>
+        </ffuenf_styleswitcher>
+    </default>
+    <uninstall>
+        <filename>uninstall.txt</filename>
+    </uninstall>
+    <phpunit>
+        <suite>
+            <modules>
+                <Ffuenf_StyleSwitcher/>
+            </modules>
+        </suite>
+    </phpunit>
+</config>
