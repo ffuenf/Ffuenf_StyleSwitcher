@@ -39,6 +39,13 @@
                 <class>Ffuenf_StyleSwitcher_Model</class>
             </ffuenf_styleswitcher>
         </models>
+        <resources>
+            <ffuenf_styleswitcher_setup>
+                <setup>
+                    <module>Ffuenf_StyleSwitcher</module>
+                </setup>
+            </ffuenf_styleswitcher_setup>
+        </resources>
     </global>
     <frontend>
         <layout>
